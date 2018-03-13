@@ -1,0 +1,45 @@
+Problem Statement
+
+## Amazon Pricing
+This dataset focuses on the vendors that sell products in the Amazon marketplace.  The data gives insight for sellers, and does not focus on customer/buyers. The dataset scrapes from Amazon’s website for over 250 products, and includes tags like whether the seller is Amazon, Fullfilled by Amazon (FBA), or other.  The goal of this study is to understand factors that will make a successful vendor in the Amazon marketplace.  
+Problem Statement:  Can a non-Amazon affiliated seller succeed in the Amazon marketplace
+Hypothesis and Assumptions include:
+	- Can a vendor be competitive against Amazon as a FBA or not?
+	- What categories command better pricing power against Amazon?
+	- Similarly, is it better to have a diverse portfolios of products to sell, or should a seller focus on one segment?
+	- Does ‘Scraped Index’, which I interpret as search rankings, affect the price (i.e. does Amazon push lower price products further up the search)
+	- What other factors affect the ‘Scraped Index’ search rankings, and as a seller, how can I use this information to make sure products are top of the search list
+	-
+My initial assumptions is that it is very difficult as a seller to compete against Amazon on similar items.  Advantages may come when specializing in categories where Amazon does not compete, and building a portfolio around these segments.  
+
+The dataset is limited to only a summer’s worth of data, and Amazon’s algorithms area constantly changing.  We run into the risk of having incomplete data.  Also, this dataset does not address the experience for a user, which could also raise interesting questions (i.e. Does Amazon sold, Amazon Recommended, or PRIME sold products always the best price for the consumer?)
+
+
+
+
+## LendingClub Loan Data
+This dataset includes loan data for over xxx loans for the period 2007-2015.  It includes several interesting datapoint, such as loaner’s Job Title, FICO Score, Homeownership status, Zip code, and more.  LendingClub primarily specializes in providing loans in Debt Consolidation, Credit Card, and Home Improvements.
+Lending Club allows individual Investors access to investment vehicles in the consumer credit space, and claims fixed returns between 4-6%.  Asset-backed investment vehicles around credit card and debt loans are typically created for institutional banks looking to diversify their portfolios.  I’m interested in researching this dataset from the perspective of the Investor.  Just because this investment exists, does not mean it’s a good investment.  Based on default rates, and profiles of the investors, and economic factors, does it make sense to participate in Lending Club as an investor?
+Problem Statement: Is LendingClub a good way for individual investors to earn fixed income?
+Hypothesis and Assumptions include:
+	- What factors affect the Grade given for each loan
+	- What factors lead to high defaults to a loan
+	- Which Zip codes are higher risk
+	- Are homeowners better than non-homeowners in regards to on-time payments
+	- Does Job Title and number of years worked affect the ability for a loanee to pay off their loan
+	- 
+This dataset is limited to the perspective of the investor; however, what’s good for LendingClub should be good for the investor.  The dataset is huge, and it may be easier to randomly pick certain data points, but this will require caution to not include biases.
+
+
+## TrumpTwitterArchive
+Trump's use of Twitter for propaganda, promotion, and slander is unprecedented for the Presidency.  He tweets without filter and the trumptwitterarchive is able to create a dataset that collects every tweet, retweet, and favorite.  
+‘David S. Ferriero informed two Democratic senators last week that the Trump’s tweets are being preserved for posterity, so future generations can revel in the president’s peculiar and unprecedented use of Twitter as an art form and governing tool.’ -source theVerge
+
+Problem Statement:  What types of words causes high levels of engagements through retweets an favorites.  
+Hypothesis and Assumptions:
+	- Negatively Sentiment tweets causes the highest level of engagement
+	- What ##Hashtags are used the most, and do they affect engagement level
+	- Based on word usage, has his tone/voice changed over time
+	- Trump’s tweets does not affect the markets
+
+Challenges to this exercise include the use of NLP and JSON.  Although the website does allow a CSV extract of data, it will probably be a bit more interesting to configure this project for a real time feed to monitor engagements and changing trends.  

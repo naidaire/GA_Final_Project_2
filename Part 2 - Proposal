@@ -1,0 +1,15 @@
+## TrumpTwitterArchive
+Trump's use of Twitter for propaganda, promotion, and communication is unprecedented for the Presidency.  He is an active user of twitter, and the trumptwitterarchive is a collection of his every tweet, retweet, and favorite.  
+"David S. Ferriero informed two Democratic senators last week that the Trumpâ€™s tweets are being preserved for posterity, so future generations can revel in the president's peculiar and unprecedented use of Twitter as an art form and governing tool." -source theVerge
+
+Problem Statement:  Predict engagement levels based on text, hastags, sentiment, and other feature columns.  
+
+Hypothesis and Assumptions:
+    - Build a model that predicts the level of engagement for the President's tweets
+    - Target Engagement (y), which is defined as the combination of favorite_count + retweet_count
+    - Feature Columns: ['source', 'text', 'created_at', 'is_retweet']
+    - Additional Feature Columns from Text:
+      Create a sentiment score on Text.  Does negative sentiment increase engagement?
+      Create Dummy variables for commonly used hashtags, which ones increase engagement?
+      
+Challenges to this exercise include the use of NLP and JSON.  Although the website does allow a CSV extract of data, it will probably be a bit more interesting to configure this project for a real time feed to monitor engagements and changing trends.  
